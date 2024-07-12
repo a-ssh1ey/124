@@ -4,13 +4,20 @@ import './reset.css';
 
 import { Button, Navbar } from './components';
 
-import React from 'react';
+import React, {useState} from 'react';
 
-const App = () => (
+function App() {
+  const show = {
+    1: "Main",
+    2: "Join",
+    3: "Create",
+  }
+  return (
   <div>
     <Navbar />
     <Button text="1123" inactive />
   </div>
-);
+  )
+};
 
 export default App;
