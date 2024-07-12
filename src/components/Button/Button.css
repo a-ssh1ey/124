@@ -22,3 +22,17 @@
 .button:active {
   transform: scale(0.9);
 }
+
+.disabled {
+  color: white;
+  cursor: not-allowed;
+  background-color: black !important;
+}
+
+.disabled:hover {
+  transform: none;
+}
+
+.disabled:active {
+  transform: none;
+}
