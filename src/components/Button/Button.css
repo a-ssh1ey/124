@@ -1,0 +1,14 @@
+.button {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button.inactive {
+  background-color: red;
+}

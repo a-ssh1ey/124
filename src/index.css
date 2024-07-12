@@ -4,11 +4,11 @@
   --font-base: 'Cormorant Upright', serif;
   --font-alt: 'Open Sans', sans-serif;
   
-  --color-golden: #DCCA87;
-  --color-black: #0C0C0C;
-  --color-gray: #545454;
-  --color-crimson: #F5EFDB;
-  --color-grey: #AAAAAA;
+  --color-gray: #3B3C40;
+  --color-beige: #F2E2C4;
+  --color-brown: #A67A46;
+  --color-sand: #F2CA99;
+  --color-black: #0D0D0D;
   --color-white: #FFFFFF;
 }
 
@@ -18,7 +18,10 @@
   margin: 0;
   scroll-behavior: smooth;
 }
-
+html, body {
+  margin: 0;
+  height: 100%;
+}
 a {
   color: unset;
   text-decoration: none;
