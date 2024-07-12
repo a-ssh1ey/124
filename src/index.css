@@ -1,15 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap");
 
 :root {
-  --font-base: 'Cormorant Upright', serif;
-  --font-alt: 'Open Sans', sans-serif;
-  
-  --color-gray: #3B3C40;
-  --color-beige: #F2E2C4;
-  --color-brown: #A67A46;
-  --color-sand: #F2CA99;
-  --color-black: #0D0D0D;
-  --color-white: #FFFFFF;
+  --font-base: "Cormorant Upright", serif;
+  --font-alt: "Open Sans", sans-serif;
+
+  --color-gray: #3b3c40;
+  --color-beige: #f2e2c4;
+  --color-brown: #a67a46;
+  --color-sand: #f2ca99;
+  --color-black: #0d0d0d;
+  --color-white: #ffffff;
+  --btn-primary-color: orange;
+  --btn-secondary-color: red;
 }
 
 * {
@@ -18,7 +20,8 @@
   margin: 0;
   scroll-behavior: smooth;
 }
-html, body {
+html,
+body {
   margin: 0;
   height: 100%;
 }
@@ -28,28 +31,28 @@ a {
 }
 
 .slide-bottom {
-  -webkit-animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  -webkit-animation: slide-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
 @-webkit-keyframes slide-bottom {
   0% {
     -webkit-transform: translateY(-25%);
-            transform: translateY(-25%);
+    transform: translateY(-25%);
   }
   100% {
     -webkit-transform: translateY(0);
-            transform: translateY(0);
+    transform: translateY(0);
   }
 }
 
 @keyframes slide-bottom {
   0% {
     -webkit-transform: translateY(-25%);
-            transform: translateY(-25%);
+    transform: translateY(-25%);
   }
   100% {
     -webkit-transform: translateY(0);
-            transform: translateY(0);
+    transform: translateY(0);
   }
 }
