@@ -1,23 +1,27 @@
-import './App.css';
-import './index.css';
-import './reset.css';
+import "./App.css";
+import "./index.css";
+import "./reset.css";
 
-import { Button, Navbar } from './components';
-
-import React, {useState} from 'react';
+import { Create, Join, MainPage } from "./views";
+import { Footer, Navbar } from "./components";
+import React, { useState } from "react";
 
 function App() {
-  const show = {
-    1: "Main",
-    2: "Join",
-    3: "Create",
-  }
+  const [active, setActive] = useState(1);
+  const components = {
+    1: <MainPage />,
+    2: <Join />,
+    3: <Create />,
+  };
+
   return (
-  <div>
-    <Navbar />
-    <Button text="1123" inactive />
-  </div>
-  )
-};
+    <div>
+      <Navbar />
+      {components[active]}
+
+      <Footer setActive={setActive} selected={active}></Footer>
+    </div>
+  );
+}
 
 export default App;
