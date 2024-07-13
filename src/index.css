@@ -3,13 +3,11 @@
 :root {
   --font-base: "Cormorant Upright", serif;
   --font-alt: "Open Sans", sans-serif;
-
-  --color-gray: #3b3c40;
-  --color-beige: #f2e2c4;
-  --color-brown: #a67a46;
-  --color-sand: #f2ca99;
-  --color-black: #0d0d0d;
+  --color-golden: #dcca87;
+  --color-blue: #98a5d8;
+  --color-darkerblue: #8595d3;
   --color-white: #ffffff;
+  --color-gray: #a9a9a9;
 }
 
 * {
@@ -20,8 +18,10 @@
 }
 html,
 body {
+  background-color: var(--color-white);
   margin: 0;
   height: 100%;
+
 }
 a {
   color: unset;

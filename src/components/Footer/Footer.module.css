@@ -1,8 +1,9 @@
 .footer {
+    height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 1rem 2rem;
-    gap: 80px;
+    gap: 30px;
 }
