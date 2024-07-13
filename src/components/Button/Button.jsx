@@ -2,10 +2,17 @@ import "./Button.css";
 
 import React from "react";
 
-function Button({ text, inactive, onclick, disabled }) {
-  return <div className={`${inactive ? "inactive" : ""} button ${disabled ? "disabled" : ""}`} onClick={onclick}> 
-  {text} 
-  </div>;
+function Button({ text, inactive, onclick, disabled, secondary }) {
+  return (
+    <div
+      className={`${inactive ? "inactive" : ""} ${disabled ? "disabled" : ""} ${
+        secondary ? "secondary" : ""
+      } button`}
+      onClick={onclick}
+    >
+      {text}
+    </div>
+  );
 }
 
 export default Button;

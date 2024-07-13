@@ -1,12 +1,12 @@
-import DILDO from "../assets/DILDO.jpg";
+import  Button  from "../components/Button/Button";
 import React from "react";
 
-function Join() {
+function Join({setActive, selected}) {
     return (
         <div>
+            <Button text="Back" inactive onclick={() => setActive(0)} disabled={selected === 0} secondary={true}/>
             <h1>Join</h1>
 
-            <img src={DILDO} alt="DILDO" />
         </div>
     );
 }

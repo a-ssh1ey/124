@@ -6,13 +6,21 @@
   height: 50px;
   cursor: pointer;
   border-radius: 5px;
-  background-color: var(--btn-primary-color);
+  background-color: var(--color-sand);
   user-select: none;
   transition: all 0.3s ease;
 }
 
 .button.inactive {
-  background-color: var(--btn-secondary-color) ;
+  background-color: var(--color-sand) ;
+}
+
+.button.secondary {
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 100px;
+  background-color: var(--color-gray);
+  color: var(--color-white);
 }
 
 .button:hover {
@@ -26,7 +34,7 @@
 .disabled {
   color: white;
   cursor: not-allowed;
-  background-color: black !important;
+  background-color: var(--color-brown) !important;
 }
 
 .disabled:hover {
