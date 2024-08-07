@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Feducia-Deal-Guarantee/static/css/main.ed4ce726.css",
+    "main.js": "/Feducia-Deal-Guarantee/static/js/main.a55eb5f1.js",
+    "static/media/user.svg": "/Feducia-Deal-Guarantee/static/media/user.372b3caef96533821eed4463e365844e.svg",
+    "index.html": "/Feducia-Deal-Guarantee/index.html",
+    "static/media/logo.svg": "/Feducia-Deal-Guarantee/static/media/logo.135f2eb7acdf929bf697003c35c88136.svg",
+    "main.ed4ce726.css.map": "/Feducia-Deal-Guarantee/static/css/main.ed4ce726.css.map",
+    "main.a55eb5f1.js.map": "/Feducia-Deal-Guarantee/static/js/main.a55eb5f1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ed4ce726.css",
+    "static/js/main.a55eb5f1.js"
+  ]
+}
